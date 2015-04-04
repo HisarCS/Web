@@ -75,10 +75,27 @@ function initialize() {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(41.17614, 28.89188),
       map: map,
-      animation: google.maps.Animation.DROP,
       title: 'Hisar Okulları'
   });
+    var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">HisarCS</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Hisar Okulları</b>, Göktürk Merkez Mahallesi İstanbul Caddesi No:3 Eyüp/İstanbul 34077</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
+
 }
+
+google.maps.event.addDomListener(window, 'load', initialize);
 
 // scroll animation 
 function scrollTo(selectors)
