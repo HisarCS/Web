@@ -6489,13 +6489,7 @@ button.close {
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
-
-.carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: #ffffff;
-}
+/*.carousel-indicators .active*/
 
 .carousel-caption {
   position: absolute;
