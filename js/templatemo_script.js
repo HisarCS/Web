@@ -78,20 +78,7 @@ function initialize() {
       animation: google.maps.Animation.DROP,
       title: 'Hisar Okulları'
   });
-    google.maps.event.addListener(marker, 'click', toggleBounce);
-
 }
-
-function toggleBounce() {
-
-  if (marker.getAnimation() != null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
 
 // scroll animation 
 function scrollTo(selectors)
