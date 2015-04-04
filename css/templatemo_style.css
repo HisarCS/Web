@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 /* ------ Carousel ----- */
 
 #templatemo-carousel {
-    background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
+    background: url('../images/back1.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -127,6 +127,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-basvuru {
+    background-color: #8996a0;
+    font-family:  'Open Sans', sans-serif;
+    font-size:10px;
+    color:#ffffff;
+
     border-bottom: 1px solid #cccccc;
     min-height: 230px;
 }
@@ -499,6 +504,28 @@ a:hover .social-icon-fb {
 
 a:hover .social-icon-rss {
     background: url('../images/social-icon-rss-over.png') no-repeat;
+}
+
+.social-icon-insta {
+    background: url('../images/social-icon-insta.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-insta {
+    background: url('../images/social-icon-insta-over.png') no-repeat;
+}
+
+.social-icon-yt {
+    background: url('../images/social-icon-yt.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-yt {
+    background: url('../images/social-icon-yt-over.png') no-repeat;
 }
 
 .social-icon-twitter {
