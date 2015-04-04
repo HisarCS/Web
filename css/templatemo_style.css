@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/templatemo_carousel_bg_s.jpg') no-repeat center center; 
+        background: url('../images/back2.jpg') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
