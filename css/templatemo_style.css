@@ -443,9 +443,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 #templatemo-contact {
+	background-image: url('../images/contact.png') ; 
 	margin-top:100px; 
 	border-top: 1px solid #cccccc; 
 	font-size:14px;
+    background-repeat: repeat;
+
 }
 .templatemo-contact-map {
     margin-bottom: 15px;
