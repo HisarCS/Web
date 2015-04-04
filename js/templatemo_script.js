@@ -71,7 +71,27 @@ function initialize() {
     };
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(41.17614, 28.89188),
+      map: map,
+      animation: google.maps.Animation.DROP,
+      title: 'Hisar Okulları'
+  });
+    google.maps.event.addListener(marker, 'click', toggleBounce);
+
 }
+
+function toggleBounce() {
+
+  if (marker.getAnimation() != null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
 
 // scroll animation 
 function scrollTo(selectors)
