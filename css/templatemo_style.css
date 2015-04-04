@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .team_hr {
     border: 1px solid #fff; 
-    width: 44.5%; 
+    width: 42%; 
     float: left;
 }
 
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .contact_hr {
     border: 1px solid #fff; 
-    width: 50.5%; 
+    width: 40%; 
     float: left;
 }
 
