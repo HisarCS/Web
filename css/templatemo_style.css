@@ -195,10 +195,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .btn-green {
     background-color:#2ecc71;
-    border-bottom:2px solid #27ae60;
+    border-bottom:4px solid #27ae60;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    font-size: 24px;
     color:#ffffff;
 }
 
