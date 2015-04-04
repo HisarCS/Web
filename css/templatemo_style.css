@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .team_hr {
     border: 1px solid #fff; 
-    width: 39.5%; 
+    width: 50.5%; 
     float: left;
 }
 
@@ -264,6 +264,25 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .team_hr_right {
+    margin-left: 30px;
+}
+
+.hr_gray {
+    border: 1px solid #cccccc; 
+}
+
+.contact_hr {
+    border: 1px solid #fff; 
+    width: 50.5%; 
+    float: left;
+}
+
+.contact_hr_left {
+    margin-right: 30px;
+    margin-left: 15px; 
+}
+
+.contact_hr_right {
     margin-left: 30px;
 }
 
@@ -723,13 +742,13 @@ ul.templatemo-project-gallery  li  a img:hover {
 
 @media (min-width:991px) and (max-width: 1200px) {
 	 .team_hr {
-		width: 37%; 
+		width: 42%; 
 	}
 }
 
 @media (min-width:683px) and ( max-width: 991px) {
 	 .team_hr {
-		width: 33%;
+		width: 38%;
 	}
 }
 
@@ -739,24 +758,65 @@ ul.templatemo-project-gallery  li  a img:hover {
 
         }
 	 .team_hr {
-		width: 30%;
+		width: 35%;
 	}
 }
 
 @media (min-width:536px) and ( max-width: 585px) {
 	 .team_hr {
-		width: 28%;
+		width: 33%;
 	}
 }
 
 @media  (min-width:410px) and  ( max-width: 536px) {
 	 .team_hr {
-		width: 21%;
+		width: 26%;
 	}
 }
 
 @media  ( max-width: 410px) {
 	 .team_hr {
-		width: 11%;
+		width: 16%;
 	}
+}
+
+
+@media (min-width:991px) and (max-width: 1200px) {
+     .contact_hr {
+        width: 40%; 
+    }
+}
+
+@media (min-width:683px) and ( max-width: 991px) {
+     .contact_hr {
+        width: 36%;
+    }
+}
+
+@media (min-width:585px) and ( max-width: 683px) {
+        .member-thumb .thumb-overlay {
+            padding-left: 25%;
+
+        }
+     .contact_hr {
+        width: 33%;
+    }
+}
+
+@media (min-width:536px) and ( max-width: 585px) {
+     .contact_hr {
+        width: 31%;
+    }
+}
+
+@media  (min-width:410px) and  ( max-width: 536px) {
+     .contact_hr {
+        width: 24%;
+    }
+}
+
+@media  ( max-width: 410px) {
+     .contact_hr {
+        width: 14%;
+    }
 }
