@@ -717,8 +717,8 @@ ul.templatemo-project-gallery  li  a img:hover {
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
-    padding-top: 9px;
-    padding-bottom: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   } 
 }
 
