@@ -208,6 +208,21 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     color:#ffffff;
 }
 
+.btn-purple {
+    background-color:#323299;
+    border-bottom:4px solid #3000FF;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active, .btn-purple.active, .open .dropdown-toggle.btn-purple {
+    background-color: #3000FF;
+    color:#ffffff;
+}
+
 .nav > li > a {
     padding: 10px 20px;
 }
