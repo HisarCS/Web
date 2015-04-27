@@ -346,6 +346,15 @@ img {
   max-width: 100%;
 }
 
+.img-responsiveRounded {
+  border-radius: 40px;
+  display: block;
+  height: auto;
+  max-width: 50%;
+  margin-bottom: 5px;
+  vertical-align: center;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
