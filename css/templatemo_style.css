@@ -299,12 +299,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .team_hr_left_medya {
-    margin-right: 0px;
+    margin-right: 25px;
     margin-left: 15px; 
 }
 
 .team_hr_right_medya {
-    margin-left: 0px;
+    margin-left: 25px;
 }
 
 .hr_gray {
@@ -440,6 +440,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .txt_darkgrey {
     color: #333333;
+    text-align: center;
 }
 
 .txt_orange {
@@ -536,26 +537,42 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .galleryContainer {
   margin-right: auto;
   margin-left: -30px;
+  width: 350px;
+  height: 150px;
+}
+
+@media (min-width: 560px) {
+  .galleryContainer {
+    width: 560px;
+    height: 250px;
+  }
 }
 
 @media (min-width: 768px) {
   .galleryContainer {
     width: 768px;
-    height: 315px
+    height: 315px;
+  }
+}
+
+@media (min-width: 768px) {
+  .galleryContainer {
+    width: 768px;
+    height: 315px;
   }
 }
 
 @media (min-width: 992px) {
   .galleryContainer {
     width: 992px;
-    height: 460px
+    height: 460px;
   }
 }
 
 @media (min-width: 1200px) {
   .galleryContainer {
     width: 1200px;
-    height: 500px
+    height: 500px;
   }
 }
 
