@@ -11,7 +11,7 @@ body, html { overflow-x:hidden; }
 
 body {
     background-color: #ffffff;
-    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family:  'Open Sans', Arial, 'Helvetice Neue', sans-serif;
     font-size: 12px;
 	
 	font-weight: 300; 
@@ -20,7 +20,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Neue', sans-serif; }
 
 * {
   -webkit-border-radius: 0 !important;
