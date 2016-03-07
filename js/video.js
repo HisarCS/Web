@@ -7,8 +7,6 @@ jQuery(function($) {
 
 	var $browser = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
 
-	if (!$browser) {
-
 		// Figure out and save aspect ratio for each video
 		$allVideos.each(function() {
 
@@ -38,5 +36,4 @@ jQuery(function($) {
 
 		// Kick off one resize to fix all videos on page load
 		}).resize();
-	}
 });
