@@ -602,8 +602,34 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 	color:#333333;
 }
 
+.gallery-2015 {
+    background: url('../images/gallery-2015.png') no-repeat;
+    background-size: 100% 100%;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .gallery-2015 {
+    background: url('../images/gallery-2015-hover.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-2016 {
+    background: url('../images/gallery-2016.png') no-repeat;
+    background-size: 100% 100%;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .gallery-2016 {
+    background: url('../images/gallery-2016-hover.png');
+    background-size: 100% 100%;
+}
+
 .social-icon-fb {
-    background: url('../images/social-icon-fb.png') no-repeat;
+    background: url('../images/social-icon-fb.png');
     width: 42px;
     height: 42px;
     display: block;
