@@ -1060,7 +1060,7 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
                     	</div>
                     </div>
                     <div class="text-center">
-                    <a class="btn btn-lg btn-orange" onclick="toggle_visibility('more_tweets','btn-show-more')" role="button" id="btn-show-more">Daha Fazla Göster &darr;</a>
+                    <a class="btn btn-lg btn-orange" onclick="toggle_visibility('more_tweets','btn-show-tweets')" role="button" id="btn-show-tweets">Daha Fazla Göster &darr;</a>
                     </div>
                 <div class="more_tweets" id="more_tweets" style="display: none">
 	                <div class="row">
@@ -1144,14 +1144,41 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
 
                     <div class="templatemo-line-header" >
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left_katil hr_gray"/><span class="txt_darkgrey">GEÇMİŞ KATILIMCILAR</span>
+                            <hr class="team_hr team_hr_left_katil hr_gray"/><span class="txt_darkgrey">KATILIMCILAR</span>
                             <hr class="team_hr team_hr_right_katil hr_gray" />
                         </div>
                     </div>
                     <div class="clearfix"></div>
+                    <div class="text-center" id="gecmis_katilim">
 
+                        <div style="margin-top:60px;">
+                            <ul class="list-inline">
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil3.png" class="img-responsive" alt="partner 1" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil8.jpeg" class="img-responsive" alt="partner 2" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil1.png" class="img-responsive" alt="partner 3" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil9.jpg" class="img-responsive" alt="partner 4" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil10.png" class="img-responsive" alt="partner 5" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="#"><img src="images/katil6.jpg" class="img-responsive" alt="partner 6" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <a class="btn btn-lg btn-orange" onclick="toggle_visibility('more_participants','btn-show-participants')" role="button" id="btn-show-participants">Eskileri Göster &darr;</a>
+                    </div>
+                                        
 
-                    <div class="text-center">
+                    <div class="text-center" id="more_participants" style="display: none">
 
                         <div style="margin-top:60px;">
                             <ul class="list-inline">
@@ -1241,10 +1268,10 @@ http://www.templatemo.com/preview/templatemo_395_urbanic
 	      console.log(sent);
 	      if(e.style.display == 'block') {
 	        e.style.display = 'none';
-	        sent.innerHTML = "Daha Fazla Göster &darr;";
+	        sent.innerHTML = "Eskileri Göster &darr;";
 	      } else {
 	        e.style.display = 'block';
-	        sent.innerHTML = "Tweetleri Sakla &uarr;";
+	        sent.innerHTML = "Eskileri Sakla &uarr;";
 	      }
     	}
     </script>
