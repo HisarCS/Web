@@ -72,6 +72,8 @@ function initialize() {
       scrollwheel: false
     };
 
+   
+
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
 
     var marker = new google.maps.Marker({
