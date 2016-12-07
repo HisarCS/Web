@@ -840,14 +840,11 @@ pre code {
   margin-left: -15px;
 }
 
-.row:before,
-.row:after {
-  display: table;
-  content: " ";
-}
-
-.row:after {
-  clear: both;
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .row:before,
@@ -859,6 +856,18 @@ pre code {
 .row:after {
   clear: both;
 }
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+
 
 .col-xs-1,
 .col-sm-1,
