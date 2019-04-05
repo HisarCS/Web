@@ -163,6 +163,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
     min-height: 230px;
 }
 
+.templatemo-atinaaaa {
+    border-bottom: 1px solid #cccccc;
+    min-height: 230px;
+}
+
 .templatemo-basvuru {
     background-color: #8996a0;
     font-family:  'Open Sans', sans-serif;
