@@ -262,6 +262,23 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
     color:#ffffff;
 }
 
+
+
+.btn-batuhan {
+    background-color: #b449bf;
+    border-bottom:4px solid #663399;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 24px;
+    color:#ffffff;
+}
+
+.btn-batuhan:hover, .btn-batuhan:focus, .btn-batuhan:active, .btn-batuhan.active, .open .dropdown-toggle.btn-green {
+    background-color: #663399;
+    color:#ffffff;
+}
+
 .nav > li > a {
     padding: 10px 20px;
 }
