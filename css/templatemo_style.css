@@ -90,15 +90,15 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 }
 
 #templatemo-carousel {
-    background: url('../images/bizKimiz.gif'); /* no-repeat center center fixed; */
-    background-repeat: repeat;/*
+    background: url('../images/banner.gif'); /* no-repeat center center fixed; */
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
     overflow-x: hidden;
     margin-bottom:0;
-    height: 500px;
+    background-size: 100%;
 }
 
 #templatemo-carousel .carousel-caption {
