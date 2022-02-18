@@ -6,10 +6,6 @@ templatemo 395 urbanic
 Urbanic Template 
 http://www.templatemo.com/preview/templatemo_395_urbanic 
 */
-.txt_orangenew {
-    font-size: 50px;
-    color: #e67e22;
-}
 
 body, html { overflow-x:hidden; }
 
@@ -38,6 +34,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
     padding-top:30px;
     height:0;
     overflow:hidden;
+}
+
+.txt_orangenew {
+    font-size: 50px !important;
+    color: #e67e22 !important;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
