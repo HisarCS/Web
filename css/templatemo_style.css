@@ -6,6 +6,10 @@ templatemo 395 urbanic
 Urbanic Template 
 http://www.templatemo.com/preview/templatemo_395_urbanic 
 */
+.txt_orangenew {
+    font-size: 50px;
+    color: #e67e22;
+}
 
 body, html { overflow-x:hidden; }
 
