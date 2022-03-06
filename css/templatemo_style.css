@@ -28,6 +28,22 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
           border-radius: 0 !important;
 }
 
+.mor {
+    background-color: #6868b0;
+    color: #FFFFFF;
+}
+
+.morText {
+    color: #FFFFFF !important;
+}
+
+.mor:hover {
+    background-color: #6868b0 !important;
+    color: #FFFFFF !important;
+    opacity: 0.6 !important;
+}
+
+
 .video-container {
     position:relative;
     padding-bottom:56.25%;
@@ -219,7 +235,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 
 
 .btn-orange {
-    background-color: #ff7600;
+    background-color: #6868b0;
     border-bottom:2px solid #d35400;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -285,13 +301,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #6868b0;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #6868b0;
     color:#fff;
 }
 
@@ -307,7 +323,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #6868b0;
     color:#fff;
 }
 
@@ -323,7 +339,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 }
 
 .templatemo-header-orange {
-    background-color:#ff7600;
+    background-color:#6868b0;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -471,7 +487,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 
 .project-overlay {
     background : rgba(0,0,0,.75);
-    border : 2px solid #ff7600;
+    border : 2px solid #6868b0;
     visibility: hidden;
     position: absolute;
     text-align:center;
@@ -500,8 +516,15 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Ne
 }
 
 .txt_orange {
-    color: #e67e22;
+    color: #454372;
+    font-size: 40px;
 }
+
+.txt_orange2 {
+    color: #6868b0;
+    font-size: 16px;
+}
+
 
 .txt_slogan {
     font-size:14px; 
@@ -749,7 +772,7 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid #6868b0;
 }
 
 .templatemo-gallery-category a {
